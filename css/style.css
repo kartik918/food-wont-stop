@@ -31,7 +31,6 @@
         transform: translateY(1000px);
         opacity: 0
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -45,7 +44,6 @@
         transform: translateY(1000px);
         opacity: 0
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -61,39 +59,33 @@
         animation-timing-function: ease-in;
         opacity: 1
     }
-
     24% {
         opacity: 1
     }
-
     40% {
         -webkit-transform: translateY(-24px);
         transform: translateY(-24px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     65% {
         -webkit-transform: translateY(-12px);
         transform: translateY(-12px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     82% {
         -webkit-transform: translateY(-6px);
         transform: translateY(-6px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     93% {
         -webkit-transform: translateY(-4px);
         transform: translateY(-4px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     25%,
     55%,
     75%,
@@ -103,7 +95,6 @@
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -121,39 +112,33 @@
         animation-timing-function: ease-in;
         opacity: 1
     }
-
     24% {
         opacity: 1
     }
-
     40% {
         -webkit-transform: translateY(-24px);
         transform: translateY(-24px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     65% {
         -webkit-transform: translateY(-12px);
         transform: translateY(-12px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     82% {
         -webkit-transform: translateY(-6px);
         transform: translateY(-6px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     93% {
         -webkit-transform: translateY(-4px);
         transform: translateY(-4px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
-
     25%,
     55%,
     75%,
@@ -163,7 +148,6 @@
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -177,7 +161,6 @@
     0% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -187,11 +170,11 @@
     0% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
 }
+
 
 /* Intro Animation End */
 
@@ -210,7 +193,6 @@ body {
 }
 
 .SearchBtn {
-
     position: absolute;
     right: 2%;
     top: 45%;
@@ -224,12 +206,40 @@ body {
     justify-content: center;
 }
 
+
+/* Question modal important css */
+
+.iframe-container {
+    overflow: hidden;
+    /* Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
+    /* padding-top: 56.25%; */
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    height: 80%;
+    width: 80%;
+}
+
+
+/* Question modal css ends */
+
+
 /* Landing SVG temp fix */
+
 @media only screen and (max-width: 762px) {
     .landing-svg {
         display: unset !important;
     }
 }
+
 @media only screen and (max-width: 1288px) {
     .landing-svg {
         display: none;

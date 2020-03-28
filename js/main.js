@@ -41,7 +41,7 @@ function appendData(data) {
 function modalHelper() {
     var openmodal = document.querySelectorAll('.modal-open')
     for (var i = 0; i < openmodal.length; i++) {
-        openmodal[i].addEventListener('click', function (event) {
+        openmodal[i].addEventListener('click', function(event) {
             event.preventDefault()
             toggleModal()
         })
@@ -55,7 +55,7 @@ function modalHelper() {
         closemodal[i].addEventListener('click', toggleModal)
     }
 
-    document.onkeydown = function (evt) {
+    document.onkeydown = function(evt) {
         evt = evt || window.event
         var isEscape = false
         if ("key" in evt) {
@@ -75,4 +75,12 @@ function toggleModal() {
     modal.classList.toggle('opacity-0')
     modal.classList.toggle('pointer-events-none')
     body.classList.toggle('modal-active')
+}
+
+// function for question modal
+function work() {
+    var frameholder = document.getElementById('mainCovid');
+    frameholder.classList.toggle('hidden');
+    document.getElementById('covid').src = "https://covid.bhaarat.ai/workflow";
+    document.getElementById('backdrop').classList.toggle('hidden');
 }
