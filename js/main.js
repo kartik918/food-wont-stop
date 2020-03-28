@@ -1,11 +1,11 @@
 var mainContainer = document.getElementsByClassName("componentContainer")[0];
 var searchBox = document.getElementById("search_box");
 window.onload = function() {
-    setTimeout(function(){ document.getElementById("load").style.opacity = "-100";  }, 3000);
-    setTimeout(function(){ document.getElementById("load").style.display = "none";  }, 3001);
-    
+    setTimeout(function() { document.getElementById("load").style.opacity = "-100"; }, 3000);
+    setTimeout(function() { document.getElementById("load").style.display = "none"; }, 3001);
+
     // this.console.log("chal raha hai")//example function call.
-  }
+}
 async function postData(url = '', searchText) {
     const response = await fetch(url);
     const cards = await response.json();
@@ -28,19 +28,16 @@ async function covidCasesData(url) {
     const cases = await response.json();
     return cases;
 }
-{/* <img class="w-8 m-2" src="assets/cash.svg">
-                <img class="w-8 m-2" src="assets/Gpay.svg">
-                <img class="w-8 m-2" src="assets/Paytm.svg">
-                <img class="w-8 m-2" src="assets/Netbanking.svg"> */}
-                    function PayFN(PaymentArr)
-                    {
-                        let tag=``;
-                        PaymentArr.forEach(element => {
-                            tag+=`<img class="w-8 m-2" src="assets/${element}.svg">`
-                        });
-                        console.log(tag);
-                        return tag;
-                    }
+
+function PayFN(PaymentArr) {
+    let tag = ``;
+    PaymentArr.forEach(element => {
+        tag += `<img class="w-8 m-2" src="assets/${element}.svg">`
+    });
+    console.log(tag);
+    return tag;
+}
+
 function appendData(data) {
 
     if (data.length > 0) {
@@ -82,14 +79,14 @@ function modalOpen(arr) {
 var myRadios = document.getElementsByName('tabs2');
 var setCheck;
 var x = 0;
-for(x = 0; x < myRadios.length; x++){
-    myRadios[x].onclick = function(){
-        if(setCheck != this){
-             setCheck = this;
-        }else{
+for (x = 0; x < myRadios.length; x++) {
+    myRadios[x].onclick = function() {
+        if (setCheck != this) {
+            setCheck = this;
+        } else {
             this.checked = false;
             setCheck = null;
-    }
+        }
     };
 }
 
@@ -101,22 +98,21 @@ function work() {
     document.getElementById('backdrop').classList.toggle('hidden');
     toggleButtonText();
 }
+
 function toggleButtonText() {
-        var change = document.getElementById("show");
-        if (change.innerHTML == "Go Back")
-        {
-            change.innerHTML = "Check For Symptoms";
-        }
-        else {
-            change.innerHTML = "Go Back";
-        }
+    var change = document.getElementById("show");
+    if (change.innerHTML == "Go Back") {
+        change.innerHTML = "Check For Symptoms";
+    } else {
+        change.innerHTML = "Go Back";
+    }
 }
 
 // Menu Modal
 function modalHelper() {
     var openmodal = document.querySelectorAll('.modal-open')
     for (var i = 0; i < openmodal.length; i++) {
-        openmodal[i].addEventListener('click', function (event) {
+        openmodal[i].addEventListener('click', function(event) {
             event.preventDefault()
             toggleModal()
         })
@@ -130,7 +126,7 @@ function modalHelper() {
         closemodal[i].addEventListener('click', toggleModal)
     }
 
-    document.onkeydown = function (evt) {
+    document.onkeydown = function(evt) {
         evt = evt || window.event
         var isEscape = false
         if ("key" in evt) {
@@ -143,6 +139,7 @@ function modalHelper() {
         }
     };
 }
+
 function toggleModal() {
     const body = document.querySelector('body')
     const modal = document.querySelector('.modal')
