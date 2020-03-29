@@ -1,32 +1,176 @@
-[
-    {
-        "name": "abc",
+[{
+        "name": "Lala",
         "phone": "0000000000",
         "dishes": "Sample",
-        "paymentModes": "cash"
+        "paymentModes": "cash",
+        "city": "place"
     },
     {
-        "name": "def",
+        "name": "Ji",
         "phone": "0000000000",
         "dishes": "Pav Bhaji",
-        "paymentModes": "cash"
+        "paymentModes": "cash",
+        "city": "New York"
     },
     {
-        "name": "ghi",
+        "name": "Basanti",
         "phone": "0000000000",
         "dishes": "Pav Bhaji",
-        "paymentModes": "cash"
+        "paymentModes": "cash",
+        "city": "France"
     },
     {
-        "name": "jkl",
+        "name": "Jack",
         "phone": "0000000000",
         "dishes": "Pav Bhaji",
-        "paymentModes": "cash"
+        "paymentModes": "cash",
+        "city": "Russia"
     },
     {
-        "name": "abc",
+        "name": "Johnson",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Rome"
+    },
+    {
+        "name": "Gandalf",
         "phone": "0000000000",
         "dishes": "Pav Bhaji",
-        "paymentModes": "cash"
+        "paymentModes": "cash",
+        "city": "Finland"
+    },
+    {
+        "name": "Froddo",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Delhi"
+    },
+    {
+        "name": "Sam",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Mumbai"
+    },
+    {
+        "name": "Charles",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Dadarpur"
+    },
+    {
+        "name": "Babbage",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Washington"
+    },
+    {
+        "name": "Kartika",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Kings Canyon"
+    },
+    {
+        "name": "Nishi",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "World's Edge"
+    },
+    {
+        "name": "Shubhangani",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Train Yard"
+    },
+    {
+        "name": "Crono",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Hommies"
+    },
+    {
+        "name": "Goden",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "No place"
+    },
+    {
+        "name": "Bromis",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Earth"
+    },
+    {
+        "name": "Alsogo",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Pluto"
+    },
+    {
+        "name": "Amdenia",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Chandigarh"
+    },
+    {
+        "name": "Robert",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Zirakpur"
+    },
+    {
+        "name": "Defian",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Ludhiana"
+    },
+    {
+        "name": "Dessai",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Patiala"
+    },
+    {
+        "name": "Doamnia",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Jhansla"
+    },
+    {
+        "name": "Presam",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Spain"
+    },
+    {
+        "name": "Shungun",
+        "phone": "0000000000",
+        "dishes": "Pav Bhaji",
+        "paymentModes": "cash",
+        "city": "Brazil"
+    },
+    {
+        "name": "Ruvak",
+        "phone": "0000000000",
+        "dishes": "Sample",
+        "paymentModes": "cash",
+        "city": "Mikado"
     }
 ]
