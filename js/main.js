@@ -1,3 +1,12 @@
+$.ajax({
+    url: 'https://randomuser.me/api/',
+    dataType: 'json',
+    success: function(data) {
+      console.log(data);
+    }
+  });
+       
+
 var mainContainer = document.getElementsByClassName("componentContainer")[0];
 var searchBox = document.getElementById("search_box");
 
@@ -50,18 +59,12 @@ function appendData(data) {
 }
 
 // Symptom Checker Modal
-    function work() {
+function work() {
     var frameholder = document.getElementById('mainCovid');
     frameholder.classList.toggle('hidden');
     document.getElementById('covid').src = "https://covid.bhaarat.ai/workflow";
     document.getElementById('backdrop').classList.toggle('hidden');
-
-    // Changing Symptom Checking button
-    var button = document.getElementById('show');
-    if (button.innerText == "Check For Symptoms")
-        button.innerText = "X";
-    else
-        button.innerText = "Check For Symptoms";
+    toggleButtonText();
 }
 function toggleButtonText() {
         var change = document.getElementById("show");
