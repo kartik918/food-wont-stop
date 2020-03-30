@@ -17,7 +17,7 @@ async function postData(url = '', searchText) {
 
     if (searchText.length === 0) {
         matches = []
-        mainContainer.innerHTML = '';
+        mainContainer.innerText = '';
     }
 
     appendData(matches);
@@ -63,9 +63,9 @@ function appendData(data) {
       </div>
         `).join('');
 
-        mainContainer.innerHTML = html;
+        mainContainer.innerText = html;
     } else {
-        mainContainer.innerHTML = '';
+        mainContainer.innerText = '';
     }
 
 }
