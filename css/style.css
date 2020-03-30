@@ -176,14 +176,15 @@
 }
 
 
-/* Intro Animation End */
+/* General Styling */
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url('./assets/bg.svg');
 }
 
-.SearchContainer {
+.searchcontainer {
+    background-image: url('./assets/search-bg.png');
     width: 70%;
     text-align: center;
 }
@@ -207,7 +208,7 @@ body {
 }
 
 
-/* Question modal important css */
+/* Symptop Checker Modal */
 
 .iframe-container {
     overflow: hidden;
@@ -227,9 +228,6 @@ body {
     height: 80%;
     width: 80%;
 }
-
-
-/* Question modal css ends */
 
 
 /* Landing SVG temp fix */
