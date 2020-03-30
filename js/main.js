@@ -12,7 +12,7 @@ async function postData(url = '', searchText) {
 
     if (searchText.length === 0) {
         matches = []
-        mainContainer.innerHTML = '';
+        mainContainer.innerText = '';
     }
 
     appendData(matches);
@@ -42,9 +42,9 @@ function appendData(data) {
       </div>
         `).join('');
 
-        mainContainer.innerHTML = html;
+        mainContainer.innerText = html;
     } else {
-        mainContainer.innerHTML = '';
+        mainContainer.innerText = '';
     }
 
 }
@@ -57,15 +57,14 @@ function work() {
     document.getElementById('backdrop').classList.toggle('hidden');
     toggleButtonText();
 }
+
 function toggleButtonText() {
-        var change = document.getElementById("show");
-        if (change.innerHTML == "Go Back")
-        {
-            change.innerHTML = "Check For Symptoms";
-        }
-        else {
-            change.innerHTML = "Go Back";
-        }
+    var change = document.getElementById("show");
+    if (change.innerText == "Go Back") {
+        change.innerText = "Check For Symptoms";
+    } else {
+        change.innerText = "Go Back";
+    }
 }
 
 // Menu Modal
@@ -115,5 +114,12 @@ function work() {
     frameholder.classList.toggle('hidden');
     document.getElementById('covid').src = "https://covid.bhaarat.ai/workflow";
     document.getElementById('backdrop').classList.toggle('hidden');
+
+    // Changing Symptom Checking button
+    var button = document.getElementById('show');
+    if (button.innerText == "Check For Symptoms")
+        button.innerText = "X";
+    else
+        button.innerText = "Check For Symptoms";
 }
 searchBox.addEventListener('keyup', () => postData('../data/sample.json', searchBox.value));
