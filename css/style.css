@@ -241,7 +241,6 @@ body {
 }
 #TabsContainer{
     box-sizing: border-box;
-    
 }
 .Searchtab{
     border-bottom: 2px solid rgb(182, 182, 182) ;
@@ -251,7 +250,6 @@ body {
     border-radius: 2%;
     color:darkblue;
     border-bottom:none !important;
-   
 }
 .iframe-container iframe {
     border: 0;
