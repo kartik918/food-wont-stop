@@ -231,7 +231,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 /* Symptop Checker Modal */
@@ -239,18 +238,22 @@ body {
     overflow: hidden;
     position: relative;
 }
+
 #TabsContainer{
     box-sizing: border-box;
 }
+
 .Searchtab{
     border-bottom: 2px solid rgb(182, 182, 182) ;
 }
+
 .ActiveTab{
     border:2px solid rgb(182, 182, 182);
     border-radius: 2%;
     color:darkblue;
     border-bottom:none !important;
 }
+
 .iframe-container iframe {
     border: 0;
     left: 0;
