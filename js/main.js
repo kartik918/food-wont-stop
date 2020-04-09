@@ -102,12 +102,9 @@ function TabChange(event) {
             
     [...Tabarr].forEach(element => {	
         let bool = element.classList.contains('ActiveTab');	
-        if(bool)	
-        {	
+        if(bool) {	
             element.classList.remove("ActiveTab");	
-                
-        }	
-            
+        }
     });	
     Active.classList.add("ActiveTab");
     postData(url, searchBox.value);
