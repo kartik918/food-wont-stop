@@ -7,9 +7,7 @@ var url = '../data/sample.json';
 window.onload = function() {
     setTimeout(function(){ document.getElementById("load").style.opacity = "-100";  }, 3000);
     setTimeout(function(){ document.getElementById("load").style.display = "none";  }, 3001);
-    
-
-  }
+}
 async function postData(url = '', searchText) {
     const response = await fetch(url);
     const cards = await response.json();
