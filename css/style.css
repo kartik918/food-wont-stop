@@ -336,17 +336,20 @@ body {
 
 /* Landing SVG temp fix */
 @media only screen and (max-width: 450px) {
-    .landing-svg {
+    .landing-svg, .land-static {
         display: unset !important;
     }
 }
 
 @media only screen and (max-width: 1288px) {
-    .landing-svg, .header-text {
+    .landing-svg, .header-text, .land-anim {
         display: none;
     }
 }
 
+.land-static{
+    display: none;
+}
 
 
 /*  ,.,.,..,,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Loading Animation,.,..,.,.,.,.,.,.,..,.,.,...,.,.,.,.,.,., */
